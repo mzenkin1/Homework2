@@ -234,9 +234,9 @@ public class Main {
         float salaryAfterWorker2Year = salaryAfterWorker2 * 12;
         float salaryAfterWorker3Year = salaryAfterWorker3 * 12;
 
-        float differenceWorker1 = salaryAfterWorker1Year - salaryAfterWorker1;
-        float differenceWorker2 = salaryAfterWorker2Year - salaryAfterWorker2;
-        float differenceWorker3 = salaryAfterWorker3Year - salaryAfterWorker3;
+        float differenceWorker1 = salaryAfterWorker1Year - salaryWorker1Year;
+        float differenceWorker2 = salaryAfterWorker2Year - salaryWorker2Year;
+        float differenceWorker3 = salaryAfterWorker3Year - salaryWorker3Year;
 
         System.out.println("Маша теперь получает " + salaryAfterWorker1 + " рублей. Годовой доход вырос на " + differenceWorker1 + " рублей");
         System.out.println("Денис теперь получает " + salaryAfterWorker2 + " рублей. Годовой доход вырос на " + differenceWorker2 + " рублей");
